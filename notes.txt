@@ -1,0 +1,15 @@
+- Mojo is a compiled language. Much of it speed is derived from that.
+- Every program must include a fn main() as the entry point
+- Seems like typing is strict on Mojo as compared to Python
+- importing Python libs/func as easy as:
+  from python import Python
+
+  let np = Python.import_module("numpy")
+
+  ar = np.arange(15).reshape(3, 5)
+  print(ar)
+  print(ar.shape)
+
+- 
+
+
